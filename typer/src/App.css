@@ -1,0 +1,104 @@
+.correct {
+  /* font-weight: bold; */
+  color: green;
+  font-family: jetbrains mono;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.incorrect {
+  /* font-weight: bold; */
+  color: red;
+  font-family: jetbrains mono;
+  font-size: 26px;
+ font-weight: bold;
+}
+
+.active {
+  font-family: jetbrains mono;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+.input {
+  width: 100%;
+}
+
+.Main {
+  font-family: Open Sans;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Align text center within the container */
+  
+}
+
+.timerbutton { 
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.timerbutton:hover {
+  background-color: #358bd6;
+  text-decoration: underline;
+}
+
+.resetbutton {
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.resetbutton:hover {
+  background-color: #358bd6;
+  text-decoration: underline;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  left: 20px;
+  font-weight: bold;
+  font-family: Open Sans;
+  font-size: 42px;
+  
+}
+
+.prompt {
+  font-family: jetbrains mono;
+  font-size: 26px;
+}
+
+.stats {
+  font-family: Open Sans;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Align text center within the container */
+  
+}
+
+.box {
+  font-family: JetBrains Mono;
+  font-size: 17px;
+  height: 20px;
+  width: 400px; /* Make the input field as wide as its container */
+  padding: 10px;
+  margin-bottom: 10px; /* Add spacing between the input field and button */
+}
